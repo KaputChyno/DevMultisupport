@@ -1,0 +1,7 @@
+article img, article p{
+    display:inline-block;
+}
+
+article img{
+    width:250px;
+}
