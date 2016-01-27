@@ -1,7 +1,12 @@
-article img, article p{
-    display:inline-block;
+article img,
+article p {
+  display: inline-block;
 }
-
-article img{
-    width:250px;
+article img {
+  width: 250px;
 }
+.wrapper {
+  width: 80%;
+  margin: auto;
+}
+/*# sourceMappingURL=devMultissuport.css.map */
