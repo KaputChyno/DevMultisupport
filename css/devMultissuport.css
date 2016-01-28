@@ -1,0 +1,83 @@
+/****GENERAL****/
+body {
+  color: #2d2d2d;
+}
+a {
+  color: #2d2d2d;
+  text-decoration: none;
+}
+.wrapper {
+  width: 80%;
+  margin: auto;
+}
+/****MENU****/
+.main-nav a {
+  display: inline-block;
+  width: 10%;
+  text-align: center;
+  padding: 10px 0px;
+  color: #FFFFFF;
+}
+.main-nav {
+  width: 90%;
+  text-align: right;
+}
+.btn {
+  background-color: #3cb39c;
+}
+.btn:hover {
+  background-color: #6ec1b5;
+}
+/****ARTICLE****/
+article img,
+article p,
+.main-header,
+.main-nav {
+  display: inline-block;
+}
+article img {
+  width: 250px;
+  float: left;
+  padding-right: 20px;
+}
+article p {
+  line-height: 25px;
+}
+article p.texte1-article {
+  width: 70%;
+  margin-top: 0px;
+}
+/****FOOTER****/
+.main-footer {
+  text-align: center;
+}
+/****RESPONSIVE****/
+@media screen and (max-width: 1140px) {
+  .main-header,
+  .main-nav {
+    display: block;
+  }
+  .main-header {
+    text-align: center;
+  }
+  .main-nav {
+    text-align: center;
+    width: 100%;
+  }
+  .main-nav a {
+    width: 20%;
+  }
+  article p.texte1-article {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 370px) {
+  .main-nav a {
+    width: 100%;
+    margin: 2px 0px;
+  }
+  article img {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=devMultissuport.css.map */
